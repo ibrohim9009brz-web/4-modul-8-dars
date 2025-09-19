@@ -1,0 +1,54 @@
+body{
+    background-color: #1F242D;
+    color: white;
+}
+.li{
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;    
+}
+.li:hover{
+    color:#00EEFF; 
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(16,24,40,0.12);
+    transition: all 1s ease;
+}
+.ul{
+    margin-left: 1200px;
+}
+.navs-h1{
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 25px;
+    line-height: 100%;
+}
+.nav{
+    width: 1440px;
+    height: 78px; 
+}
+.footers-h1{
+    color: azure;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px ;
+    margin:150px ;
+}
+.img-pochti{
+    margin-left: 200px;
+}
